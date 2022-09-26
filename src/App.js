@@ -2,7 +2,7 @@ import {useState} from 'react';
 import  Header  from "./components/Header";
 import  Tasks  from './components/Tasks';
 function App() {
-  const [tasks, setTask] = useState( [
+  const [tasks] = useState( [
     {
       id:1,
       text:'Doctors Appoinment',
